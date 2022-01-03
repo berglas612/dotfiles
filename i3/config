@@ -120,9 +120,7 @@
         for_window [class=".*"] border pixel 0
         
        # set gaps
-        bindsym $mod+plus gaps outer all set 20
         bindsym $mod+Shift+plus gaps inner all set 20
-        bindsym $mod+minus gaps outer all set 0
         bindsym $mod+Shift+minus gaps inner all set 0
 
 # =====

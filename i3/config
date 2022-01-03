@@ -113,8 +113,15 @@
 
         bindsym $mod+r mode "resize"
         
-        # remove borders for gaps
+# ====
+# gaps
+        
+       # remove borders for gaps
         for_window [class=".*"] border pixel 0
+        
+       # set gaps
+        gaps inner all set 5
+        gaps outer all set 5
 
 
 # =====

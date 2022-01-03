@@ -121,8 +121,6 @@
         
        # set gaps
         gaps inner all set 5
-        gaps outer all set 5
-
 
 # =====
 # fonts

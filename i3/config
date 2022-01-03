@@ -39,7 +39,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # fake key input for git token
-bindsym $mod+p exec "xdotool key --delay 400 ctrl && xdotool type --delay 100 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"
+bindsym $mod+p exec "xdotool key --delay 400 ctrl && xdotool type --delay 100 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 xdotool key Enter"
 
 # start a terminal
 bindsym $mod+Return exec alacritty

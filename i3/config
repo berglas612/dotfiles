@@ -120,7 +120,10 @@
         for_window [class=".*"] border pixel 0
         
        # set gaps
-        gaps inner all set 5
+        bindsym $mod+plus gaps outer all set 5
+        bindsym $mod+plus gaps inner all set 5
+        bindsym $mod+minus gaps outer all set 0
+        bindsym $mod+minus gaps inner all set 0
 
 # =====
 # fonts

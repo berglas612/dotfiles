@@ -1,0 +1,36 @@
+01-04-22:
+Initial install:
+  micro             ->  text editor
+  yay               ->  aur helper
+  ntfs-3g           ->  ntfs parser
+  dhcpcd            ->  dhcp client
+  git               ->  version control
+  sudo              ->  privileges
+  grub & os-prober  ->  bootloader
+
+
+To install:
+  timeshift         ->  backups
+  taskwarrior       ->  to do list
+  picom             ->  compositor
+  alacritty         ->  terminal
+  btop              ->  task monitor
+  spotify-tui       ->  cli spotify client
+  flameshot         ->  snapshot tool
+  feh               ->  image viewer & wallpaper setter
+  ly                ->  display manager
+  i3-gaps           ->  window manager
+  dmenu             ->  application launcher
+  vlc               ->  video player
+  google-chrome     ->  browser
+  rain              ->  terminal decoration
+
+  ->  file searcher
+  ->  file manager
+  ->  font viewer
+  ->  dotfile manager
+  ->  system info fetch
+  ->  audio system
+  ->  logout ui
+  ->  taskbar
+  ->  alternative shell

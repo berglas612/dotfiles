@@ -21,7 +21,7 @@ data.location=/home/berglas612/.config/.task
 # move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
 
 #data.location=~/.local/share/task
-hooks.location=~/.config/.task/hooks
+hooks.location=~/.config/task/hooks
 
 # Color theme (uncomment one to use)
 #include light-16.theme

@@ -7,23 +7,29 @@ Initial install:
   git               ->  version control
   sudo              ->  privileges
   grub & os-prober  ->  bootloader
+  
+9pm:
+  taskwarrior       ->  to do list
+  i3-gaps           ->  window manager
+  dmenu             ->  application launcher
+  alacritty         ->  terminal
+  btop              ->  task monitor
+  xorg              ->  display server
+  xinit             ->  x starter
+  
 
 
 To install:
   timeshift         ->  backups
-  taskwarrior       ->  to do list
   picom             ->  compositor
-  alacritty         ->  terminal
-  btop              ->  task monitor
   spotify-tui       ->  cli spotify client
   flameshot         ->  snapshot tool
   feh               ->  image viewer & wallpaper setter
   ly                ->  display manager
-  i3-gaps           ->  window manager
-  dmenu             ->  application launcher
   vlc               ->  video player
   google-chrome     ->  browser
   rain              ->  terminal decoration
+  ssh
 
   ->  file searcher
   ->  file manager

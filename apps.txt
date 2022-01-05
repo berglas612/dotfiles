@@ -20,6 +20,7 @@ Initial install:
   picom             ->  compositor
   timeshift         ->  system restore
   ly                ->  display manager
+  google-chrome     ->  browser
 
 
 ###############################################################
@@ -29,7 +30,6 @@ To install:
   spotify-tui       ->  cli spotify client
   flameshot         ->  snapshot tool
   vlc               ->  video player
-  google-chrome     ->  browser
   rain              ->  terminal decoration
   ssh               ->  
   alsa              ->  sound system

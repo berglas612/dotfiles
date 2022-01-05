@@ -16,27 +16,30 @@ Initial install:
   btop              ->  task monitor
   xorg              ->  display server
   xinit             ->  x starter
-  
+  feh               ->  image viewer & wallpaper setter
+  picom             ->  compositor
+  timeshift         ->  system restore
+  ly                ->  display manager
+
+
+###############################################################
 
 
 To install:
-  timeshift         ->  backups
-  picom             ->  compositor
   spotify-tui       ->  cli spotify client
   flameshot         ->  snapshot tool
-  feh               ->  image viewer & wallpaper setter
-  ly                ->  display manager
   vlc               ->  video player
   google-chrome     ->  browser
   rain              ->  terminal decoration
-  ssh
+  ssh               ->  
+  alsa              ->  sound system
+  pulseaudio        ->  sound server
 
   ->  file searcher
   ->  file manager
   ->  font viewer
   ->  dotfile manager
   ->  system info fetch
-  ->  audio system
   ->  logout ui
   ->  taskbar
   ->  alternative shell

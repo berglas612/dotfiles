@@ -19,9 +19,7 @@
        # kill window
         bindsym $mod+c          kill
 
-## ~/commands
-       # input for git token
-        bindsym $mod+p exec "xdotool key --delay 400 ctrl && xdotool type --delay 100 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 && xdotool key Enter" 
+## ~/commands       
        # live i3 reload
         bindsym $mod+Shift+r restart
 
@@ -120,8 +118,10 @@
         for_window [class=".*"] border pixel 0
         
        # set gaps
-        bindsym $mod+Shift+plus gaps inner all set 20
-        bindsym $mod+Shift+minus gaps inner all set 0
+       # bindsym $mod+Shift+plus gaps inner all set 20
+       # bindsym $mod+Shift+minus gaps inner all set 0
+        gaps inner 20
+        gaps outer 15
 
 # =====
 # fonts

@@ -1,5 +1,4 @@
 01-04-22:
-Initial install:
   micro             ->  text editor
   yay               ->  aur helper
   ntfs-3g           ->  ntfs parser
@@ -7,8 +6,6 @@ Initial install:
   git               ->  version control
   sudo              ->  privileges
   grub & os-prober  ->  bootloader
-  
-9pm:
   taskwarrior       ->  to do list
   i3-gaps           ->  window manager
   dmenu             ->  application launcher
@@ -21,6 +18,13 @@ Initial install:
   timeshift         ->  system restore
   ly                ->  display manager
   google-chrome     ->  browser
+  
+01-05-22:
+  rain              ->  terminal decoration
+  fontpreview       ->  font viewer
+  fzf               ->  fuzzy finder
+  openssh           ->  ssh
+  
 
 
 ###############################################################
@@ -30,14 +34,11 @@ To install:
   spotify-tui       ->  cli spotify client
   flameshot         ->  snapshot tool
   vlc               ->  video player
-  rain              ->  terminal decoration
-  ssh               ->  
   alsa              ->  sound system
   pulseaudio        ->  sound server
 
   ->  file searcher
   ->  file manager
-  ->  font viewer
   ->  dotfile manager
   ->  system info fetch
   ->  logout ui

@@ -1,1 +1,9 @@
-
+dconf
+gtk-3.0
+google-chrome
+micro/buffers
+yay
+.task/backlog.data
+.task/completed.data
+.task/undo.data
+.task/pending.data

@@ -34,5 +34,3 @@ PS1="\n\w \[$(tput sgr0)\]\[\033[38;5;14m\]\$(git branch 2> /dev/null | sed -e '
 # /full/directory (git branch)
 # 12:hr >>>
 
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '

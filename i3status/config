@@ -1,0 +1,86 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+		output_format = "i3bar"
+			# i3bar; dzen2; xmobar; lemonbar; term; none
+        colors = true
+        interval = 5
+}
+
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "volume master"
+order += "battery all"
+order += "disk /"
+order += "memory"
+order += "tztime local"
+
+wireless _first_ {
+        format_up = "%essid: (%quality) %ip"
+        format_down = "W: down"
+}
+
+ethernet _first_ {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
+
+battery all {
+        format = "%status %percentage"
+        #format_down = "No battery"
+        #status_chr = "CHR"
+        #status_bat = "BAT"
+        #status_unk = "UNK"
+        #status_full = "FULL"
+        #low_threshold = 10
+}
+
+#run_watch DHCP {
+#	pidfile = "/var/run/dhclient*.pid"
+#}
+
+#run_watch VPNC {
+#	# file containing the PID of a vpnc process
+#	pidfile = "/var/run/vpnc/pid"
+#}
+
+#path_exists VPN {
+#	# path exists when a VPN tunnel launched by nmcli/nm-applet is active
+#	path="/proc/sys/net/ipv4/conf/tun0"
+#}
+
+#cpu_tempurature 0 {
+#	format = "T: %degrees C"
+#	path = "/sys/devices/platform/coretemp.0/temp1_input"
+#}
+
+disk "/" {
+        format = "DSK %percentage_used"
+}
+
+load {
+        format = "%1min"
+}
+
+memory {
+        format = "%used -> %available"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
+
+tztime local {
+        format = "%a, %m.%d.%y - %I:%M%P"
+        #%m/%d/%Y %I:%M:%S
+}
+
+volume master {
+	format = "VOL %volume"
+	format_muted = "VOL mute (%volume)"
+	device = "default"
+}

@@ -9,6 +9,13 @@
 alias ls='ls --color=auto'
 alias la='ls -a'
 
+# config shortcuts
+alias ealacritty='vim ~/.config/alacritty/alacritty.yml'
+alias ei3='vim ~/.config/i3/config'
+alias eneofetch='vim ~/.config/neofetch/config.conf'
+alias exinitrc='vim ~/.config/.xinitrc'
+alias ebashrc='vim ~/.config/.bashrc'
+
 # git / github
 alias ga='git add'
 alias gc='git commit -m'

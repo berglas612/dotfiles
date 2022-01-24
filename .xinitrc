@@ -37,4 +37,5 @@ picom -b &
 xset s off -dpms &
 xrandr --output HDMI-0 --mode 1920x1080 --rate 74.97 --right-of DVI-D-0 &
 xrandr --output DP-5 --mode 1920x1080 --rate 60 --right-of HDMI-0 &
+./.config/scripts/force-composition-pipeline.sh &
 exec i3
